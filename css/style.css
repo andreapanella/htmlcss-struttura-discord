@@ -5,10 +5,59 @@
 }
 
 :root {
-    --bg-navbar: #214499;
+    --bg-navbar: #245CE4;
     --h1-text: #ffffff;
     --bg-dark-btn-header: #000000;
     --text-dark-btn-header: #ffffff;
     --bg-light-btn-header: #ffffff;
     --text-light-btn-header: #000000;
+    --text-navbar-anchor: #dfe0e1;
+}
+
+.debug {
+    border: 1px solid black;  
+}
+
+nav {
+    background-color: var(--bg-navbar);
+}
+
+.navbar-container {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 15px 0 15px 0;
+    align-items: center;
+}
+
+.logo-place {
+    width: 300px;
+}
+
+.navbar-list {
+    width: 80%;
+    margin: 0 200px 0 200px;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar-list li a, .btn-accedi a {
+    text-decoration: none;
+}
+
+.navbar-list li a {
+    color: var(--text-navbar-anchor);
+}
+.btn-accedi {
+   background-color: var(--bg-light-btn-header); 
+   padding: 5px 10px 5px 10px;
+   border-radius: 12px;
 }
