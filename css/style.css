@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --bg-navbar: #214499;
+    --h1-text: #ffffff;
+    --bg-dark-btn-header: #000000;
+    --text-dark-btn-header: #ffffff;
+    --bg-light-btn-header: #ffffff;
+    --text-light-btn-header: #000000;
+}
